@@ -49,7 +49,5 @@ public class ClientService {
             .map(mapper::toDTO)
             .collect(Collectors.toList());
     }
-
-
     
 }
