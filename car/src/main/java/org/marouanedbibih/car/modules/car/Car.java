@@ -1,5 +1,6 @@
 package org.marouanedbibih.car.modules.car;
 
+import io.micrometer.observation.annotation.Observed;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,6 +17,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @Builder
+@Observed
 public class Car {
 
     @Id
